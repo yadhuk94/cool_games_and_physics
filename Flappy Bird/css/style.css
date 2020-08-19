@@ -1,0 +1,102 @@
+.score-container {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 30px;
+  left: 950px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#score {
+  padding-top: 6px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.game-over-container {
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 270px;
+  left: 370px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+main {
+  display: none;
+}
+
+.game-intro {
+  width: 1000px;
+  height: 600px;
+  background-image: url(../images/sky.png);
+  background-repeat: no-repeat;
+}
+
+button {
+  background-color: #e43d44;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  height: 45px;
+  width: 200px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  left: 100px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #e43d44;
+  border: 2px solid #e43d44;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #e43d44;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.inst {
+  padding-left: 300px;
+}
+
+.game-container {
+  padding-top: 200px;
+}
+
+.instruction-container {
+  display: none;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 270px;
+  left: 370px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: large;
+}
